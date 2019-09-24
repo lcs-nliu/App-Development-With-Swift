@@ -15,7 +15,7 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
+print("My name is Nicole Liu")
 
 
 /*:

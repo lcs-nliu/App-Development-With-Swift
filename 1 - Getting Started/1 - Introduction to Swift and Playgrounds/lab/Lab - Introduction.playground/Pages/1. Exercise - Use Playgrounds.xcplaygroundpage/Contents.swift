@@ -3,10 +3,10 @@
 
  The code below prints a few short statements about what you have learned in this lesson. Open the console area and view the code's output.
  */
-print("I have learned the following: I can create variables and constants.")
+print("I have learned the following: I can create variables and constants and print them by simply printing the variable or constant name.")
 print("What features make Swift a modern and safe language: type safety, type inference, and optionals.")
-print("How to use the Swift REPL in Terminal")
-print("How to use playgrounds to make writing Swift fun and simple")
+print("How to use the Swift REPL in Terminal: You enter swift REPL by opening terminal, typing swift, and pressing enter. Then you type commands like you would in XCode.")
+print("How to use playgrounds to make writing Swift fun and simple: You use a familiar interface, the results appear immediately in side bar, and you can watch the progress in the timeline.")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */

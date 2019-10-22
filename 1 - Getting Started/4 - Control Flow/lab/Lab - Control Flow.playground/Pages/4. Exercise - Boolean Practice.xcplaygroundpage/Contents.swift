@@ -13,6 +13,12 @@ let hasFish = true
 let hasPizza = false
 let hasVegan = true
 
+if hasFish == true || hasPizza == true && hasVegan == true {
+    print ("Let's Go!")
+} else {
+    print ("Sorry, we'll have to think of somewhere else.")
+}
+
 
 /*:
  Imagine you're trying to decide whether or not to go on a walk. You decide that you'll go on a walk if it's not raining or if it's 82 degress or warmer and sunny out. Create a constant `isNiceWeather` that is equal to an expression that evaluates to a boolean indicating whether or not the weather is nice enough for you to go for a walk. Write an if statement that will print "I'm going for a walk!" if the weather is nice.
@@ -21,5 +27,9 @@ let temp = 82
 let isRaining = true
 let isSunny = true
 
+let isNiceWeather = temp >= 82  && isSunny == true || isRaining == false
 
+if isNiceWeather == true {
+    print ("I'm going for a walk!")
+}
 //: [Previous](@previous)  |  page 4 of 9  |  [Next: App Exercise - Target Heart Rate](@next)

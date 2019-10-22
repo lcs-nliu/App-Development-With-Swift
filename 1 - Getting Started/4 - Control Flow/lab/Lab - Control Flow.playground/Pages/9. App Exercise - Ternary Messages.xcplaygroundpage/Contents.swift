@@ -7,12 +7,8 @@
  */
 let stepGoal = 10000
 let steps = 3948
-
-if steps < stepGoal / 2 {
-    print("Almost halfway!")
-} else {
-    print("Over halfway!")
-}
+var overHalfway: Int
+overHalfway = steps > stepGoal/2 ? steps : stepGoal/2
 
 
 /*:

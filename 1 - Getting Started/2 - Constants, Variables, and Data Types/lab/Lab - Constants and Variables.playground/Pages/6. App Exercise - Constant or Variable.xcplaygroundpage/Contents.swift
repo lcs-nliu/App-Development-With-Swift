@@ -11,15 +11,19 @@
  - Goal number of steps: The user's goal for number of steps to take each day
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
+// Created constant: Name and printed out a message
 let name = "Emily"
 print ("I chose name as a constant because Emily's name isn't going to change at all.")
-
+// Created constant: Age and printed out a message
 let age = 17
 print ("I chose age as a constant because the age of a person will not change in one execution.")
+// Created variable: Steps and printed out a message
 var steps = 4000
 print ("I chose steps as a variable because I need to constantly change the value to update the number of steps Emily has taken today.")
+// Created constant: stepsGoal and printed out a message
 let stepsGoal = 5000
 print ("I chose stepsGoal as a constant becuase Emily's goal is unlikely to change soon.")
+// Created variable: heartRate and printed out a message
 var heartRate = 120
 print ("I chose heartRate as a variable because her average heart rate will chnage as time passes.")
 

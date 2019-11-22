@@ -9,7 +9,7 @@
  */
 let firstName = "Nicole"
 let lastName = "Liu"
-let fullName = firstName + lastName
+let fullName = firstName + " " + lastName
 print (fullName)
 
 /*:
@@ -22,5 +22,5 @@ print (fullName)
 let previousBest = 14392
 let newBest = 15125
 let congratulations = "Congratulations, \(fullName)! You beat your previous daily high score of \(previousBest) steps by walking \(newBest) steps yesterday!"
-
+print (congratulations)
 //: [Previous](@previous)  |  page 3 of 5  |  [Next: Exercise - String Equality and Comparison](@next)

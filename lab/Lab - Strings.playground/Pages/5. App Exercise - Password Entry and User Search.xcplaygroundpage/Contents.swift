@@ -23,7 +23,11 @@ if enteredUserName.lowercased() == storedUserName.lowercased(), enteredPassword 
 import Foundation
 let userName = "StepChallenger"
 let searchName = "step"
-
+if userName.lowercased().contains(searchName) {
+    print ("Found username \(userName)!")
+} else {
+    print ("Did not find any usernames!")
+}
 
 /*:
 

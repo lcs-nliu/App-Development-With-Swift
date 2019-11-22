@@ -47,6 +47,6 @@ if textToSearchThrough.lowercased().contains(textToSearchFor) {
  Print to the console the number of characters in your name by using the `count` property on `name`.
  */
 let nameCount = nameInCaps.count
-print (nameCount)
+print ("There are \(nameCount) characters in my name.")
 
 //: [Previous](@previous)  |  page 4 of 5  |  [Next: App Exercise - Password Entry and User Search](@next)
